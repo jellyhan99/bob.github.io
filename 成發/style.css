@@ -1,0 +1,170 @@
+
+div{
+  padding-top:30pt;
+  padding-bottom:30pt;
+}
+
+.abc{
+  text-align: center;
+}
+body{
+  background: linear-gradient(white,#b8eaff);
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.A{
+  position:absolute;
+  z-index: 2;
+  color: #131f25;
+}
+
+.B{
+  position: absolute;
+  z-index: -1;
+  opacity: 0.3;
+  top:150px; right:500px; left:500px; bottom:0; 
+  margin:auto;
+  }
+
+.C{
+  position:absolute;
+  z-index: 2;
+  top:600px; right:0; left:0; bottom:0; 
+  margin:auto;
+  color: #131f25
+}
+
+.D{
+  position: absolute;
+  z-index: -1;
+  opacity: 0.3;
+  top:150px; right:50%; left:33%; bottom:0; 
+  margin:auto;
+  }
+.E{
+  position:absolute;
+  z-index: 2;
+  top:1200px; right:0; left:0; bottom:0; 
+  margin:auto;
+  color: #131f25
+}
+
+.F{
+  position: absolute;
+  z-index: -1;
+  opacity: 0.3;
+  top:150px; right:50%; left:33%; bottom:0; 
+  margin:auto;
+  }
+
+.G{
+  position:absolute;
+  z-index: 2;
+  top:1800px; right:0; left:0; bottom:0; 
+  margin:auto;
+  color: #131f25
+}
+
+.H{
+  position: absolute;
+  z-index: -1;
+  opacity: 0.3;
+  top:150px; right:50%; left:46%; bottom:0; 
+  margin:auto;
+  }
+
+.aaa{
+  position:absolute;
+  z-index: 2;
+  top:1700px; right:0; left:0; bottom:0; 
+  margin:auto;
+}
+
+.aa{
+  position:absolute;
+  z-index: 2;
+  top:2200px; right:0; left:0; bottom:0; 
+  margin:auto;
+}
+
+#rightBar {
+    z-index: 9999;
+    width: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 5%;
+    height: auto;
+}
+
+#rightBar .btn {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+}
+body{
+  margin: 0;
+  padding: 0px;
+}
+#carousel{
+  margin: auto; 
+  width: 1000px; 
+  position: relative; 
+  overflow: hidden; 
+  height: 500px;
+}
+#carousel img{
+  width: 1000px; 
+}
+#carousel > ul {
+  display: flex; 
+  position: absolute; 
+}
+#carousel > ul,
+#carousel > ul > li{
+  padding: 0;
+  margin: 0;
+  list-style:none; 
+}
+
+#carousel > ul{
+   animation: switch 4s ease 1s infinite alternate;
+}
+
+#carousel > ul:hover{
+   animation-play-state: paused; 
+}
+
+@keyframes switch{ 
+  0%,20%{
+      left: 0;
+  }
+  40%,60%{
+      left: -1000px;
+  }
+  80%,100%{
+      left: -2000px;
+  }
+}
+
+table{
+  margin-left: 40%;
+}
+h2{
+  color: #4c7b9e;
+}
+h3{
+  color: #6281fe;
+}
+p{
+  color: #176457;
+}
+table{
+  border-style:dotted;
+  color:#45a595;
+  border-color:#3dabff;
+}
